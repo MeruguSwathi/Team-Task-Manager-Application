@@ -1,6 +1,6 @@
 # 🚀 Team Task Manager (Full-Stack | Production Deployed)
 
-A scalable full-stack team collaboration platform designed to manage projects, assign tasks, and enforce role-based workflows in real time.
+A production-ready, full-stack collaboration platform designed for real-time project management and role-based workflow enforcement.
 
 🔗 **Live Demo:**
 👉 [https://team-task-manager-full-stack-production-3cc0.up.railway.app](https://team-task-manager-full-stack-production-3cc0.up.railway.app)
@@ -9,7 +9,7 @@ A scalable full-stack team collaboration platform designed to manage projects, a
 
 ## 📌 Overview
 
-This project is a **production-ready task management system** that enables teams to efficiently collaborate through structured workflows, secure authentication, and role-based access control.
+This application streamlines team productivity by allowing administrators to manage projects and assign tasks, while providing members with a dedicated interface to track and update their progress. It focuses on secure authentication, modular API design, and persistent storage.
 
 It is built with a focus on:
 
@@ -18,18 +18,14 @@ It is built with a focus on:
 * Secure authentication flows
 * Scalable deployment
 
----
+✨ Key Features
 
-## 🧠 Key Highlights
+🔐 Secure Auth: Identity management via JWT sessions and bcrypt password hashing.
+👥 Role-Based Access (RBAC): Distinct permissions for Admins (full control) and Members (task updates).
+📊 Dynamic Dashboard: Real-time metrics for total tasks, personal assignments, and overdue items.
+🛠 Project Workflows: Seamlessly add/remove members and transition user roles within projects.
+☁️ Cloud Native: Optimized for deployment on Railway with persistent volume support.
 
-* 🔐 Secure Authentication using JWT + bcrypt
-* 👥 Role-Based Access (Admin / Member)
-* 📊 Real-Time Dashboard Insights
-* 🧩 Modular REST API Design
-* ⚡ Lightweight & Fast (SQLite + Node.js)
-* 🌐 Fully Deployed on Railway
-
----
 
 ## ⚙️ Tech Stack
 
