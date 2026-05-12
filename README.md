@@ -224,8 +224,3 @@ It reflects real-world use cases such as:
 * Migration to PostgreSQL for scalability
 
 ---
-
-## 👨‍💻 Author
-
-**Shourya Mukhi**
-Computer Science Engineer | Full-Stack Developer
